@@ -42,7 +42,7 @@ router.post('/check-in', (req, res) => {
 // perform a check-out
 // route to check out: http://localhost:5000/employees/checker/check-out
 // we need to provide a valid employeeId and comment to check-out
-router.post('/check-out', (req, res) => {
+router.patch('/check-out', (req, res) => {
   const { employeeId, comment } = req.body
   const employeeIdFilter = {
     employeeId,
