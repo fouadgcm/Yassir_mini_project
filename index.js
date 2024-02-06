@@ -3,7 +3,7 @@ import bodyParser from 'body-parser'
 import mongoose, { connect } from 'mongoose'
 
 // test to uncommit this commit later if this change stays
-//2nd commented line
+//2nd comment to see if it stay after delete the previous commit
 import employeesRoutes from './routes/employees.js'
 import checkerRoutes from './routes/checker.js'
 
